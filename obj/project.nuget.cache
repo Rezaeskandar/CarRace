@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "q7NEJ/hxQ8CoP3UVbVdUqVlzSsirlYZrIatF+yKXTkVc5HRxpreIXTTWeynj9Q6LAd85izTGmc2O26Ox1A4YRQ==",
+  "success": true,
+  "projectFilePath": "D:\\C#Enteti\\CarRaceGame\\CarRace\\CarRace.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Admin\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

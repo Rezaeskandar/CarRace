@@ -1,0 +1,17 @@
+D:\C#Enteti\CarRaceGame\CarRace\bin\Debug\net6.0\CarRace.exe
+D:\C#Enteti\CarRaceGame\CarRace\bin\Debug\net6.0\CarRace.deps.json
+D:\C#Enteti\CarRaceGame\CarRace\bin\Debug\net6.0\CarRace.runtimeconfig.json
+D:\C#Enteti\CarRaceGame\CarRace\bin\Debug\net6.0\CarRace.dll
+D:\C#Enteti\CarRaceGame\CarRace\bin\Debug\net6.0\CarRace.pdb
+D:\C#Enteti\CarRaceGame\CarRace\obj\Debug\net6.0\CarRace.csproj.AssemblyReference.cache
+D:\C#Enteti\CarRaceGame\CarRace\obj\Debug\net6.0\CarRace.GeneratedMSBuildEditorConfig.editorconfig
+D:\C#Enteti\CarRaceGame\CarRace\obj\Debug\net6.0\CarRace.AssemblyInfoInputs.cache
+D:\C#Enteti\CarRaceGame\CarRace\obj\Debug\net6.0\CarRace.AssemblyInfo.cs
+D:\C#Enteti\CarRaceGame\CarRace\obj\Debug\net6.0\CarRace.csproj.CoreCompileInputs.cache
+D:\C#Enteti\CarRaceGame\CarRace\obj\Debug\net6.0\CarRace.dll
+D:\C#Enteti\CarRaceGame\CarRace\obj\Debug\net6.0\refint\CarRace.dll
+D:\C#Enteti\CarRaceGame\CarRace\obj\Debug\net6.0\CarRace.pdb
+D:\C#Enteti\CarRaceGame\CarRace\obj\Debug\net6.0\CarRace.genruntimeconfig.cache
+D:\C#Enteti\CarRaceGame\CarRace\obj\Debug\net6.0\ref\CarRace.dll
+D:\C#Enteti\CarRaceGame\CarRace\bin\Debug\net6.0\Newtonsoft.Json.dll
+D:\C#Enteti\CarRaceGame\CarRace\obj\Debug\net6.0\CarRace.csproj.CopyComplete
