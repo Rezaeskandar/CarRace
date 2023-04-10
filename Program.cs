@@ -10,6 +10,7 @@ namespace CarRace
     {
         static async Task Main(string[] args)
         {
+            start:
             List<CarModel> Cars = new List<CarModel>();
             CarModel car1 = new CarModel("Car 1");
             CarModel car2 = new CarModel("Car 2");
@@ -30,12 +31,13 @@ namespace CarRace
             Cars.Add(car4);
             Cars.Add(car5);
 
+            //Väntar in tills alla bilar kört klart
             await Task.WhenAll(task1, task2, task3, task4, task5);
 
-            Console.WriteLine("\nThe race has ended!");
+            Console.WriteLine("\nBill tävlingen är slut!");
 
             //Hitta vinnaren
-                int maxDistance = -1;
+            int maxDistance = -1;
             CarModel? winner = null;
             foreach (CarModel car in Cars)
             {
@@ -46,10 +48,27 @@ namespace CarRace
                 }
             }
             Console.ForegroundColor= ConsoleColor.Green;
-            Console.WriteLine($"\n{winner.name} Won The Race!");
+            Console.WriteLine($"\n{winner.name} har vunnit tävlingen!");
             Console.ResetColor();
 
 
+            //TODO Create a  status for every car 
+            Console.ForegroundColor= ConsoleColor.DarkYellow;
+            Console.WriteLine("\n skriv ordet 'status' för at bilarnas status Eller skriv 'start' för att börja tävlingen om!'");
+            Console.ResetColor();
+            var input = Console.ReadLine();
+            if (input.ToLower() == "status")
+            {
+                // Skriv ut status för alla bilar
+                foreach (var car in Cars)
+                {
+                    Console.WriteLine($"{car.name} har kört {car.distance:N0} m/s  meter och kör i {car.speed} km/h.\n");
+                }
+            }
+            else if (input.ToLower() == "back")
+            {
+                goto start;
+            }
 
         }
     

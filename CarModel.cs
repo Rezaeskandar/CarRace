@@ -9,16 +9,16 @@ namespace CarRace
             public string name { get; set; }
             public decimal distance { get; set; }
             public int speed { get; set; } = 0;
-            public int targetDistance { get; set; } = 1000;
-            public decimal tick { get; set; } = 30M;
+            public int targetDistance { get; set; } = 250;
+            //public decimal tick { get; set; } = 30M;
             public Random random { get; set; }
             public CarModel(string name)
 
             {
                 this.name = name;
                 distance = 0;
-                random = new Random();
                 speed = 120;
+                random = new Random();
             }
 
             public async Task StartRace()
@@ -92,27 +92,27 @@ namespace CarRace
             private async Task outOfGas()
             {
                 Console.WriteLine($"\n{name} har slut på bensin och behöver tanka!");
-                await Task.Delay(300);
+                await Task.Delay(30000);
                 Console.WriteLine($"{name} har nu tankat och fortsätter köra.");
             }
 
             private async Task flatTire()
             {
                 Console.WriteLine($"\n{name} har fått punktering och behöver byta däck!");
-                await Task.Delay(200);
+                await Task.Delay(20000);
                 Console.WriteLine($"{name} har nu bytt däck och fortsätter köra.");
             }
             private async Task dirtyWindshield()
             {
                 Console.WriteLine($"\n{name} har fått en fågel på vindrutan och behöver tvätta den!");
-                await Task.Delay(100);
+                await Task.Delay(10000);
                 Console.WriteLine($"{name} har nu tvättat vind");
             }
             private async Task engineProblem()
             {
                 Console.WriteLine($"\n{name} har fått motorproblem och hastigheten sänks med 1 km/h.");
                 speed -= 1;
-                await Task.Delay(300);
+                await Task.Delay(30000);
                 Console.WriteLine($"{name} har nu åtgärdat problemet och fortsätter köra i {speed} km/h.\n");
             }
 
