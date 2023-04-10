@@ -24,3 +24,6 @@
 ## Tech stack:
 - C# .NET Core 6 
 - Using Visual Stadio 
+
+## Console over view:
+![](https://user-images.githubusercontent.com/113901667/230983996-03d29185-0d19-4be0-adc8-5115d49e3b8f.gif)
